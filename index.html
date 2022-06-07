@@ -7,24 +7,37 @@
     <title>Semences de pays</title>
   </head>
   <body>
-    <header>
+    <header id="button-scroll">
       <div class="logo">
         <img src="img/logo.svg" alt="logo"/>
+      </div>
+      <div class="button-scroll">
+        <a href="#button-scroll">
+          <img src="img/button-fleche.svg" alt="button"/>
+        </a>
       </div>
     </header>
     <main>
       <div class="container">
         <div class="button-icon">
-          <img src="img/icon-semences.svg" alt="intro"/>
+          <a href="#introduction">
+            <img src="img/icon-semences.svg" alt="intro"/>
+          </a>
         </div>
         <div class="button-icon">
-          <img src="img/icon-produit.svg" alt="produit"/>
+          <a href="#produit">
+            <img src="img/icon-produit.svg" alt="produit"/>
+          </a>
         </div>
         <div class="button-icon">
-          <img src="img/icon-localisation.svg" alt="localisation"/>
+          <a href="#localisation">
+            <img src="img/icon-localisation.svg" alt="localisation"/>
+          </a>
         </div>
         <div class="button-icon">
-          <img src="img/icon-contact.svg" alt="contact"/>
+          <a href="#contact">
+            <img src="img/icon-contact.svg" alt="contact"/>
+          </a>
         </div>
       </div>
       <div class="menu">
@@ -34,7 +47,7 @@
           <a  href="#produit">Nos semences</a>
         </div>
         <div class="button">
-          <a  href="#vente">Points de vente</a>
+          <a  href="#localisation">Points de vente</a>
         </div>
         <div class="button">
           <a  href="#contact">Contact</a>
@@ -43,37 +56,65 @@
       <div class="image-intro">
         <img src="img/intro-image.png" alt="image-introduction"/>
       </div>
-      <h1 id="introduction">Semences de pays</h1>
-      <p>
-        Semences de pays développe une production de semences reproductibles, 
-        rustiques et adaptées à une agriculture biologique proche des cycles de 
-        la nature, en collaboration avec les initiatives nourricières de 
-        proximité.
-      </p>
-      <hr>
+      <div class="img-table">
+        <img src="img/intro-image-table.png" alt="image-table"/>
+      </div>
+      <div class="img-potager">
+        <img src="img/intro-image-potager.png" alt="image-potager"/>
+      </div>
+      <div class="texte-semence">
+        <h1 id="introduction">Semences de pays</h1>
+        <p>
+          Semences de pays développe une production de semences reproductibles, 
+          rustiques et adaptées à une agriculture biologique proche des cycles de 
+          la nature, en collaboration avec les initiatives nourricières de 
+          proximité.
+        </p>
+      </div>
+      <div class="img-homme">
+        <img src="img/intro-image-homme.png" alt="image-homme"/>
+      </div>
       <h1 id="produit">Nos semences</h1>
       <div class="text-produit">
         <p>Découvrez nos trésors de biodiversité sur le shop!</p>
       </div>
-      <div class="image-produit">
-        <img src="img/plante-image.png" alt="image-plante"/>
-      </div>
-      <div class="button-shop-purple">
-        <a href="https://shop.semencesdepays.ch">SHOP</a>
-      </div>
-      <div class="image-produit">
-        <img src="img/plante-image.png" alt="image-plante"/>
-      </div>
-      <div class="button-shop-red">
-        <a href="https://shop.semencesdepays.ch">SHOP</a>
+      <div class="produit-bleuet">
+        <h2>Bleuet Blauer <br> Junge</h2>
+        <div class="button-shop-purple">
+          <a href="https://shop.semencesdepays.ch">SHOP</a>
+        </div>
+        <div class="picture-right">
+          <img src="img/image-bleuet.svg" alt="image-bleuet"/>
+        </div>
       </div>
       <div class="image-produit">
-        <img src="img/plante-image.png" alt="image-plante"/>
+        <img src="img/intro-image-potager.png" alt="image-plante"/>
       </div>
-      <div class="button-shop-yellow">
-        <a href="https://shop.semencesdepays.ch">SHOP</a>
+      <div class="produit-haricot">
+        <h2>Haricot à <br> rames Borlotto</h2>
+        <div class="button-shop-red">
+          <a href="https://shop.semencesdepays.ch">SHOP</a>
+        </div>
+        <div class="picture-right">
+          <img src="img/image-haricot.svg" alt="image-haricot"/>
+        </div>
       </div>
-      <h1 id="vente">Points de vente</h1>
+      <div class="image-produit">
+        <img src="img/intro-image-potager.png" alt="image-plante"/>
+      </div>
+      <div class="produit-potiro">
+        <h2>Potimarron <br> français</h2>
+        <div class="button-shop-yellow">
+          <a href="https://shop.semencesdepays.ch">SHOP</a>
+        </div>
+        <div class="picture-right">
+          <img src="img/image-potiro.svg" alt="image-potiro"/>
+        </div>
+      </div>
+      <div class="image-produit">
+        <img src="img/intro-image-potager.png" alt="image-plante"/>
+      </div>
+      <h1 id="localisation">Points de vente</h1>
       <div class="image-carte">
         <img src="img/img-carte.png" alt="carte"/>
       </div>
@@ -111,13 +152,15 @@
       </div>
     </main>
     <footer id="contact">
+      <h1>Semences de pays</h1>
       <p>
-        Rue du Grand-Verger 12 1920 Martigny
+        Serres de Belle-Idée
         <br>
-        Pied de page du site avec informations de contact:
+        Chemin du Petit-Bel-Air 2
         <br>
-        Semences de paysSerres de Belle-IdéeChemin du Petit-Bel-Air 
-        2 1225 Chêne-Bourg info@semencesdepays.ch
+        1225 Chêne-Bourg 
+        <br>
+        info@semencesdepays.ch
       </p>
       <div class="logo">
         <img src="img/logo.svg" alt="logo"/>
