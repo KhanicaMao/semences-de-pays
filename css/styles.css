@@ -1,9 +1,10 @@
 html {
+  display: block;
   scroll-behavior: smooth;
 }
 
 body {
-  width: 360px;
+  max-width: 380px;
   text-align: center;
   background-color: #f4ecde;
   color: black;
@@ -43,7 +44,8 @@ header {
 }
 
 .logo {
-  padding : 40px 60px 20px 60px;
+  width: 60%;
+  padding : 15px 60px 0 73px;
 }
 
 .container {
