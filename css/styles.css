@@ -132,20 +132,17 @@ margin: 0 20px 0 20px;
 .produit-bleuet {
   background-color: #7b70a6;
   padding-top: 10px;
-  padding-bottom: 110px;
 }
 
 .produit-haricot {
   background-color: #a84f55;
   padding-top: 10px;
-  padding-bottom: 110px;
 }
 
 .produit-potiro {
   background-color: #ee8742;
-  margin-bottom: 60px;
   padding-top: 10px;
-  padding-bottom: 130px;
+  margin-bottom: 60px;
 }
 
 .picture-right {
@@ -161,7 +158,7 @@ margin: 0 20px 0 20px;
   background-color: #2c285b;
   width: 40px;
   margin-left: 20px;
-  padding: 10px 60px 10px 20px;
+  padding: 10px 60px 0 20px;
 }
 
 .button-shop-purple a {
@@ -177,7 +174,7 @@ margin: 0 20px 0 20px;
   background-color: #c68276;
   width: 40px;
   margin-left: 20px;
-  padding: 10px 60px 10px 20px;
+  padding: 10px 60px 0 20px;
 }
 
 .button-shop-red a{
@@ -193,7 +190,7 @@ margin: 0 20px 0 20px;
   background-color: #8f5832;
   width: 40px;
   margin-left: 20px;
-  padding: 10px 60px 10px 20px;
+  padding: 10px 60px 0 20px;
 }
 
 .button-shop-yellow a{
@@ -204,7 +201,7 @@ margin: 0 20px 0 20px;
 }
 
 .image-produit {
-  transform: translate(0, -70px);
+  transform: translate(0, -85px);
 }
 
 .image-carte {
@@ -231,4 +228,12 @@ footer {
 footer p {
   font-size: 18px;
   margin: 40px;
+}
+
+.logo-footer {
+  display: block;
+  display: flex;
+  margin: auto;
+  width: 45%;
+  padding-top: 20px;
 }
