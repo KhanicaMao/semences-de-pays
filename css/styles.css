@@ -240,3 +240,8 @@ footer p {
   width: 45%;
   padding-top: 20px;
 }
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
